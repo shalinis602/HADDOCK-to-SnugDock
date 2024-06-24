@@ -1,5 +1,5 @@
 # HADDOCK to SnugDock
-This repository provides a script to streamline the process of preparing HADDOCK output files for use with SnugDock. The script automates a sequence of **`pdb_tools`** commands to ensure compatibility.
+This repository features a single script **`haddock_to_snugdock_processor.sh`** that automates the preparation of HADDOCK output files for use as input in SnugDock. By automating a sequence of **`pdb_tools`** commands, it ensures compatibility and proper formatting of these files for docking in SnugDock. The main script uses 13 underlying bash scripts which can be customized to meet specific requirements. 
 
 ### **Usage**
 
@@ -46,3 +46,7 @@ The repository structure is as follows:
 - The script assumes HADDOCK output files and prepares them for inputting in SnugDock. Modify **`haddock_to_snugdock_processor.sh`** for different input or output formats as needed.
 - Ensure that you have the necessary permissions and environment set up to run shell scripts.
 - For any issues or improvements, please feel free to open an issue or submit a pull request.
+
+  ## Contact
+
+Feel free to reach out via email at [shalinisinha602@gmail.com](mailto:shalinisinha602@gmail.com) or connect with me on [Twitter](https://x.com/asimov_algos)

@@ -47,6 +47,6 @@ The repository structure is as follows:
 - Ensure that you have the necessary permissions and environment set up to run shell scripts.
 - For any issues or improvements, please feel free to open an issue or submit a pull request.
 
-  ## Contact
+### Contact
 
 Feel free to reach out via email at [shalinisinha602@gmail.com](mailto:shalinisinha602@gmail.com) or connect with me on [Twitter](https://x.com/asimov_algos)

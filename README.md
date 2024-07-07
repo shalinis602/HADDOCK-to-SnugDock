@@ -1,9 +1,7 @@
 # HADDOCK to SnugDock
 This repository contains a single script **`haddock_to_snugdock_processor.sh`** that automates the preparation of HADDOCK output files for use as input in SnugDock. By automating a sequence of **`pdb_tools`** commands, it ensures compatibility and proper formatting of these files for docking in SnugDock. The main script utilizes 13 underlying Bash scripts, each of which can be customized to meet specific requirements. This modular approach facilitates easy modification for different complexes.
 
-### **Usage**
-
-#### **Running the Script**
+## **Running the script**
 
 To prepare HADDOCK output files for SnugDock, follow these steps:
 
@@ -34,10 +32,10 @@ To prepare HADDOCK output files for SnugDock, follow these steps:
    ```
    This script executes a series of **`pdb_tools`** commands to convert HADDOCK output files to SnugDock input files. It displays the **`pdb_tools`** command currently being executed and the time taken to run it on the terminal. The processed files are saved in the `output` folder.
 
-### Customization
+## Customization
 Users can edit **`haddock_to_snugdock_processor.sh`** and other shell script files to adapt for other file formats or processing steps beyond HADDOCK and SnugDock compatibility.
 
-### Repository Structure
+## Repository Structure
 The repository structure is as follows:
 
 ```
@@ -73,7 +71,7 @@ The repository structure is as follows:
 - **concat.sh**: Creates the new antibody and antigen files by joining the renamed chains.
 - **reatom.sh**: Renumbers all the pdb files.
 
-### Notes
+## Notes
 - Make sure to have some extra disk space on your machine because it temporarily creates processed pdb files.
 - The script assumes 2 chain antibody and 2 chain antigen complex conformations. Add more bash scripts for different number of chains as needed.
 - Ensure that you have the necessary permissions and environment set up to run shell scripts.
